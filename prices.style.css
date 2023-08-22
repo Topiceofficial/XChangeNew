@@ -12,6 +12,7 @@ body{
     background-color: #0b1426;
     margin: 0;
     padding: 0;
+    padding-bottom: 80px;
 }
 nav{
     padding: 10px;
@@ -51,6 +52,7 @@ nav h1{
     letter-spacing: 3px;
 }
 .footer{
+    background-color: #0b1426;
     position: fixed;
     bottom: 0;
     width: 100%;
