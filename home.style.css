@@ -106,19 +106,31 @@ nav h1{
     width: 100px;
 }
 .prices{
-    margin: 10px 0;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0;
+}
+.prices div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .prices h3{
     color: #fcfefe;
     padding-left: 10px;
 }
+.prices a img{
+    width: 30px;
+    padding-right: 5px;
+}
 .prices a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
-    display: block;
     color: #fcfefe;
-    background-color: #1398f9;
     margin: 10px;
-    line-height: 45px;
-    padding-left: 15px;
+    padding: auto;
 }
