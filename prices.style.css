@@ -79,6 +79,9 @@ nav h1{
     padding-top: 18px;
 }
 .charts{
-    height: 440px;
+    height: 400px;
     padding: 10px;
+}
+.charts a{
+    display: none;
 }

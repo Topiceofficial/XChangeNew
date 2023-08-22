@@ -105,3 +105,20 @@ nav h1{
     align-items: center;
     width: 100px;
 }
+.prices{
+    margin: 10px 0;
+    padding: 10px;
+}
+.prices h3{
+    color: #fcfefe;
+    padding-left: 10px;
+}
+.prices a{
+    text-decoration: none;
+    display: block;
+    color: #fcfefe;
+    background-color: #1398f9;
+    margin: 10px;
+    line-height: 45px;
+    padding-left: 15px;
+}
