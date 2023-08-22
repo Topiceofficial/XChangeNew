@@ -75,3 +75,7 @@ nav h1{
     align-items: center;
     padding-top: 18px;
 }
+.charts{
+    height: 400px;
+    padding: 0 10px;
+}
