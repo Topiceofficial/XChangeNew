@@ -61,6 +61,7 @@ nav h1{
     justify-content: space-around;
 }
 .footer a{
+    display: block;
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -145,4 +146,29 @@ nav h1{
     background-color: #66bcf9;
     line-height: 35px;
     text-decoration: none;
+    border: none;
+    border-radius: 3px;
+}
+.history{
+    margin: 10px 5px;
+    padding: 10px;
+    height: 300px;
+}
+.history h3{
+    color: #fcfefe;
+}
+.history a{
+    text-decoration: none;
+    color: #66bcf9;
+}
+.history p{
+    color: #fcfefe;
+    display: grid;
+    text-align: center;
+    padding-top: 100px;
+}
+.history div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -75,3 +75,14 @@ nav h1{
     align-items: center;
     padding-top: 18px;
 }
+.history{
+    margin: 10px 5px;
+    padding: 10px;
+    height: 300px;
+}
+.history p{
+    color: #fcfefe;
+    display: grid;
+    text-align: center;
+    padding-top: 100px;
+}
