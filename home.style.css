@@ -11,7 +11,7 @@ body{
     font-family: Circular, Arial, Helvetica, sans-serif;
     background-color: #0b1426;
     margin: 0;
-    padding: 0;
+    padding: 0 0 80px 0;
 }
 nav{
     padding: 10px;
@@ -51,6 +51,8 @@ nav h1{
     letter-spacing: 3px;
 }
 .footer{
+    background-color: #0b1426;
+    height: max-content;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -106,14 +108,12 @@ nav h1{
     width: 100px;
 }
 .prices{
-    display: flex;
-    flex-direction: column;
     margin: 10px;
     padding: 0;
 }
 .prices div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 0 10px 10px 10px;
     padding-bottom: 10px;
@@ -126,13 +126,23 @@ nav h1{
     margin-bottom: 15px;
     letter-spacing: none;
 }
-.prices a img{
+.prices img{
     width: 30px;
-    padding-right: 5px;
+    margin-right: 8px;
 }
 .prices a{
-    display: inline-flex;
-    align-items: center;
+    display: block;
+    width: 100%;
     text-decoration: none;
     color: #fcfefe;
+}
+#show-more{
+    color: #fcfefe;
+    margin: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #66bcf9;
+    line-height: 35px;
+    text-decoration: none;
 }
