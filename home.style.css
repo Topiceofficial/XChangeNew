@@ -118,11 +118,13 @@ nav h1{
     margin: 0 10px 10px 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #1398f9;
+    line-height: 35px;
 }
 .prices h3{
     color: #fcfefe;
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    letter-spacing: none;
 }
 .prices a img{
     width: 30px;
