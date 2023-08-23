@@ -17,7 +17,7 @@ body{
 nav{
     padding: 10px 10px 0 10px;
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -56,6 +56,7 @@ nav h1{
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
     justify-content: space-around;
@@ -84,4 +85,28 @@ nav h1{
 }
 .charts a{
     display: none;
+}
+.prices{
+    margin: 10px;
+    padding: 0;
+}
+.prices div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10px 10px 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1398f9;
+    line-height: 35px;
+}
+
+.prices img{
+    width: 30px;
+    margin-right: 8px;
+}
+.prices a{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #fcfefe;
 }

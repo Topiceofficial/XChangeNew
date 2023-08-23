@@ -52,13 +52,14 @@ nav h1{
 }
 .footer{
     background-color: #0b1426;
-    height: max-content;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
     justify-content: space-around;
+    height: fit-content;
 }
 .footer a{
     display: block;

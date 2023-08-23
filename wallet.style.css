@@ -51,12 +51,15 @@ nav h1{
     letter-spacing: 3px;
 }
 .footer{
+    background-color: #0b1426;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
     justify-content: space-around;
+    height: fit-content;
 }
 .footer a{
     text-decoration: none;
