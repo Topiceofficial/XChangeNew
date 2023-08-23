@@ -115,6 +115,7 @@ nav h1{
     line-height: 35px;
     border: none;
     border-radius: 20px;
+    margin-bottom: 50px
 }
 
 
@@ -122,7 +123,7 @@ nav h1{
 
 
 
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto");
 @-webkit-keyframes come-in {
   0% {
     -webkit-transform: translatey(100px);
@@ -195,9 +196,12 @@ nav h1{
           animation: come-in 0.4s forwards 0.6s;
 }
 .floating-container .floating-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   position: absolute;
-  width: 65px;
-  height: 65px;
+  width: 55px;
+  height: 55px;
   background: #2cb3f0;
   bottom: 0;
   border-radius: 50%;
@@ -207,7 +211,7 @@ nav h1{
   color: white;
   line-height: 65px;
   text-align: center;
-  font-size: 23px;
+  font-size: 25px;
   z-index: 100;
   box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
   cursor: pointer;
@@ -247,10 +251,5 @@ nav h1{
   box-shadow: 0 20px 20px -10px rgba(255, 152, 0, 0.5);
 }
 
-
-
-
-
-
-
+ */
 
