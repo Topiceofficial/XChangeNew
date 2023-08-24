@@ -142,12 +142,12 @@ nav h1{
     color: #fcfefe;
 }
 #barcode-text{
-    padding: 0 40px;
-    text-decoration: underline;
+    padding: 0 10px;
+    margin-bottom: 5px;
 }
 #barcode-text-2{
     color: #3c4351;
-    padding: 0 40px;
+    padding: 0 10px;
 }
 
 
