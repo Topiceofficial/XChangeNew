@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XChange - Bitcoin</title>
+    <link rel="stylesheet" href="coins.style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a5372f1372.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="heading">
+  <a href="prices.html"><i class="fa-solid fa-angle-left fa-xl" style="color: #1398f9;"></i></a>
+  <div>
+      <h1>Deposit Bitcoin</h1>
+  </div>
+  <a></a>
+</nav>
+
+<div class="container-2">
+    <h3>Coin</h3>
+    <div>
+        <img src="resources/images/bitcoin.png">
+        <p>BTC <span>Bitcoin</span></p>
+    </div>
+</div>
+
+<div class="container-2">
+    <h3>Network</h3>
+    <div>
+        <p>BTC</p>
+    </div>
+</div>
+
+<div class="my-copy-link">
+    <h3>Bitcoin Address</h3>
+    <div class="copy-link">
+        <input type="text" class="copy-link-input" value="1FGTgtp6Pc9T88AJE4oR3PTPySstbhUKds" readonly>
+        <button type="button" class="copy-link-button">
+          <span class="material-icons">content_copy</span>
+        </button>
+      </div>
+</div>
+
+<img src="resources/images/Bitcoin_barcode.jpg" alt="Bitcoin_barcode" id="barcode">
+
+<div class="barcode-text">
+    <h4 id="barcode-text">Send only BTC to this deposit address</h4>
+    <p id="barcode-text-2">Make sure to only deposit BTC on the BTC network, or else your funds will be lost.</p>
+</div>
+
+<div class="trade-btn">
+    <a href="#" class="buy-bitcoin">Cancel</a>
+    <a href="#">Done</a>
+</div>
+
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/142457329.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script>
+    document.querySelectorAll(".copy-link").forEach((copyLinkParent) => {
+        const inputField = copyLinkParent.querySelector(".copy-link-input");
+        const copyButton = copyLinkParent.querySelector(".copy-link-button");
+        const text = inputField.value;
+    
+        inputField.addEventListener("focus", () => inputField.select());
+    
+        copyButton.addEventListener("click", () => {
+        inputField.select();
+        navigator.clipboard.writeText(text);
+    
+        inputField.value = "Copied!";
+        setTimeout(() => (inputField.value = text), 2000);
+        });
+    });
+</script>
+
+
+</body>
+</html>
