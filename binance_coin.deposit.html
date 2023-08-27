@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XChange - Ethereum</title>
+    <link rel="stylesheet" href="coins.style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a5372f1372.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<nav class="heading">
+  <a href="ethereum.html"><i class="fa-solid fa-angle-left fa-xl" style="color: #1398f9;"></i></a>
+  <div>
+      <h1>Deposit Ethereum</h1>
+  </div>
+  <a></a>
+</nav>
+
+<div class="container-2">
+    <h3>Coin</h3>
+    <div>
+        <img src="resources/images/crypto.png">
+        <p>ETH <span>Ethereum</span></p>
+    </div>
+</div>
+
+<div class="container-2">
+    <h3>Network</h3>
+    <div>
+        <p>Ethereum (ERC20)</p>
+    </div>
+</div>
+
+<div class="my-copy-link">
+    <h3>Ethereum Address</h3>
+    <div class="copy-link">
+        <input type="text" class="copy-link-input" value="0xc4a670f223918e29c7650e22a433b7f995638740" readonly>
+        <button type="button" class="copy-link-button">
+          <span class="material-icons">content_copy</span>
+        </button>
+      </div>
+</div>
+
+<img src="resources/images/Ethereum_barcode.jpg" alt="Ethereum" id="barcode">
+
+<div class="barcode-text">
+    <h4 id="barcode-text">Send only Ethereum to this deposit address</h4>
+</div>
+
+<div class="trade-btn">
+    <a href="prices.html" class="buy-bitcoin">Cancel</a>
+    <a href="home.html">Done</a>
+</div>
+
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/142457329.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script>
+    document.querySelectorAll(".copy-link").forEach((copyLinkParent) => {
+        const inputField = copyLinkParent.querySelector(".copy-link-input");
+        const copyButton = copyLinkParent.querySelector(".copy-link-button");
+        const text = inputField.value;
+    
+        inputField.addEventListener("focus", () => inputField.select());
+    
+        copyButton.addEventListener("click", () => {
+        inputField.select();
+        navigator.clipboard.writeText(text);
+    
+        inputField.value = "Copied!";
+        setTimeout(() => (inputField.value = text), 2000);
+        });
+    });
+</script>
+
+
+</body>
+</html>
