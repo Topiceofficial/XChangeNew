@@ -45,7 +45,6 @@ nav h1{
     color: #fcfefe;
     font-size: 25px;
     padding: 20px;
-    margin-bottom: 10px;
 }
 .balance h5, h3{
     letter-spacing: 3px;
@@ -82,7 +81,12 @@ nav h1{
 .main-wallet,.spot-wallet h5, h3{
     letter-spacing: 3px;
 }
-
+.note{
+    font-size: 15px;
+    background-color: #1398f9;
+    margin: 20px;
+    padding: 10px;
+}
 
 .footer{
     background-color: #0b1426;
