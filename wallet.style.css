@@ -55,6 +55,7 @@ nav h1{
     justify-content: space-around;
     margin: 0;
     padding: 0 8px;
+    margin-bottom: 10px;
 }
 .trade-buttons a{
     display: block;
@@ -75,8 +76,8 @@ nav h1{
 .main-wallet, .spot-wallet{
     color: #fcfefe;
     font-size: 20px;
-    padding: 20px;
-    margin-bottom: 15px;
+    padding: 5px 20px;
+    margin-bottom: 10px;
 }
 .main-wallet,.spot-wallet h5, h3{
     letter-spacing: 3px;
