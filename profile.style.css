@@ -39,7 +39,8 @@ input:focus{
 }
 nav h1{
     color: white;
-    padding: 0 60px;
+    padding: 0 80px;
+    letter-spacing: 5px;
 }
 .balance{
     color: #fcfefe;
