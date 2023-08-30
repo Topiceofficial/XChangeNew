@@ -72,13 +72,13 @@ nav h1{
     background-color: #1398f9;
     border: none;
 }
-.main-wallet{
+.main-wallet, .spot-wallet{
     color: #fcfefe;
     font-size: 20px;
     padding: 20px;
     margin-bottom: 15px;
 }
-.main-wallet h5, h3{
+.main-wallet,.spot-wallet h5, h3{
     letter-spacing: 3px;
 }
 
