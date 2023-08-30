@@ -50,6 +50,21 @@ nav h1{
 .balance h5, h3{
     letter-spacing: 3px;
 }
+.trade-buttons{
+    display: flex;
+    margin: 0;
+    padding: 5px;
+}
+.trade-buttons a{
+    margin: 0 10px;
+    color: #fcfefe;
+    text-align: center;
+    text-decoration: none;
+    width: 110px;
+    line-height: 35px;
+    background-color: #0b1426;
+    border: 1px solid #1398f9;
+}
 .footer{
     background-color: #0b1426;
     position: fixed;
