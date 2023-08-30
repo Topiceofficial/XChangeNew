@@ -100,11 +100,11 @@ nav h1{
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    width: 90%;
-    height: 35px;
+    width: 120px;
+    height: 38px;
     margin: 30px auto;
     display: block;
     border: 1px solid #1398f9;
     border-radius: 3px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
