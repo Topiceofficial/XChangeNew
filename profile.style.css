@@ -83,3 +83,20 @@ nav h1{
     padding: 0px 25px 0 0;
     color: #fcfefe;
 }
+.profile-details{
+    color: #fcfefe;
+    margin: 30px 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.profile-details a{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #1398f9;
+    margin: 20px 5px;
+}
