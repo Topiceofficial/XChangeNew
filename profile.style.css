@@ -50,3 +50,24 @@ nav h1{
 .balance h5, h3{
     letter-spacing: 3px;
 }
+.profile{
+    height: 140px;
+    box-shadow: 0 5px 4px #1398f9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#picture{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 2px solid #1398f9;
+}
+.profile #picture i{
+    font-size: 50px;
+    padding-top: 45px;
+    padding-left: 26px;
+}
