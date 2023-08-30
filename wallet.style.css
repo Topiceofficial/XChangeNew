@@ -72,6 +72,17 @@ nav h1{
     background-color: #1398f9;
     border: none;
 }
+.main-wallet{
+    color: #fcfefe;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.main-wallet h5, h3{
+    letter-spacing: 3px;
+}
+
+
 .footer{
     background-color: #0b1426;
     position: fixed;
